@@ -8,7 +8,7 @@ const Montserrat700 = Montserrat({ weight: "700", subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="m-auto">
-      <div className="w-[300px] md:w-[500px] bg-White rounded-b-xl flex flex-col md:flex-row ">
+      <div className="w-[300px] md:w-[500px] h-[450px] bg-White rounded-b-xl flex flex-col md:flex-row ">
         <Image
           className="md:hidden rounded-t-lg"
           src="/images/image-product-mobile.jpg"
